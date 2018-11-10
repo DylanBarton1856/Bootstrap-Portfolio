@@ -1,0 +1,87 @@
+/* Heading Dylan Barton */
+
+header{
+    background: #ffffff;
+    padding: 0px;
+    border-bottom: 2px solid #dddddd
+}
+
+.name{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #4aaaa5;
+    margin: 0;
+    width: 200px;
+    text-align: center;
+    padding-top:12px;
+    padding-bottom: 12px;
+}
+
+.links {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777
+}
+
+.links a{
+    text-decoration: none;
+    color: #777777
+}
+
+/* Body, Background Image */
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-image: url("folk-pattern.png");
+    background-repeat: repeat;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+/* Main About Me Section */
+
+#startingparagraph{
+    padding-top: 20px;
+}
+
+#aboutme {
+    color: #4aaaa5;
+    padding: 20px 20px 20px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Photo of Self */
+
+#SelfImage {
+    height: 175px;
+    width: 200px;
+    float: left;
+    padding-right: 20px;
+    display: flex;
+}
+
+/* Footer */
+footer {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #666666;
+    color: #777777;
+    height: 60px;
+    border-top: 10px solid #4aaaa5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* ClearFix */
+
+/* .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
